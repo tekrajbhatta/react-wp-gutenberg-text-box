@@ -1,0 +1,71 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "verdure/text-box",
+    "version": "1.0.0",
+    "title": "Text Box",
+    "description": "Add an text in a box with customizable text color and background color.",
+    "icon": "welcome-widgets-menus",
+    "category": "vdplug",
+    "keywords": [
+        "text box"
+    ],
+    "attributes": {
+        "content": {
+            "type": "string",
+            "source": "html",
+            "selector": ".text-box-content",
+            "default": "In summary, Pro-QCP will optimize your most important workflow: delivering accurate test results"
+        },
+        "backgroundColor": {
+            "type": "string",
+            "default": "#11578A"
+        },
+        "paddingTop": {
+            "type": "string",
+            "default": "0"
+        },
+        "paddingRight": {
+            "type": "string",
+            "default": "23%"
+        },
+        "paddingBottom": {
+            "type": "string",
+            "default": "0"
+        },
+        "paddingLeft": {
+            "type": "string",
+            "default": "23%"
+        },
+        "borderRadiusTopLeft": {
+            "type": "string",
+            "default": "20px"
+        },
+        "borderRadiusTopRight": {
+            "type": "string",
+            "default": "20px"
+        },
+        "borderRadiusBottomRight": {
+            "type": "string",
+            "default": "20px"
+        },
+        "borderRadiusBottomLeft": {
+            "type": "string",
+            "default": "20px"
+        },
+        "headingTag": {
+            "type": "string",
+            "default": "h4"
+        },
+        "textColor": {
+            "type": "string",
+            "default": "#FFFFFF"
+        }
+    },
+    "example": {
+        
+    },
+    "textdomain": "vdplug",
+    "editorScript": "file:./index.js",
+    "style": "file:./style-index.css"
+}
