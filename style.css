@@ -1,0 +1,32 @@
+.text-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--wp--preset--color--cp-brand-blue);
+    padding-top: 0;
+    padding-right: 23%;
+    padding-bottom: 0;
+    padding-left: 23%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.text-box-content {
+    color: var(--wp--preset--color--cp-text-white);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 35px 0;
+    font-size: 23px;
+}
